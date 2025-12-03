@@ -1,0 +1,35 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is namaste react",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shre9198/namaste-react-repository.git"
+  },
+  "keywords": [
+    "React",
+    "Namaste",
+    "React"
+  ],
+  "author": "Shreyash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shre9198/namaste-react-repository/issues"
+  },
+  "homepage": "https://github.com/Shre9198/namaste-react-repository#readme",
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "browserlist": [
+    "last 2 chrome version",
+    "last 2 firefox version",
+    "last 2 safari version"
+  ]
+}
