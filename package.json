@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "This is namaste react",
   "scripts": {
-    "test": "jest"
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest --config jest.config.cjs --passWithNoTests"
   },
   "repository": {
     "type": "git",
@@ -21,15 +23,18 @@
   },
   "homepage": "https://github.com/Shre9198/namaste-react-repository#readme",
   "devDependencies": {
-    "parcel": "^2.16.1"
+    "parcel": "^2.0.0"
   },
   "dependencies": {
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1"
+    "@cloudinary/react": "^1.14.3",
+    "@cloudinary/url-gen": "^1.22.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.9.3"
   },
-  "browserlist": [
-    "last 2 chrome version",
-    "last 2 firefox version",
-    "last 2 safari version"
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions"
   ]
 }
